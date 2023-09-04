@@ -1,2 +1,2 @@
 #!/bin/bash
-sort input.txt | uniq -c | grep -E '^\s*1\s+'
+sort list | uniq -c | grep -E '^\s*1\s+'
