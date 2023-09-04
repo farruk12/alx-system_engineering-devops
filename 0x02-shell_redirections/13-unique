@@ -1,2 +1,2 @@
 #!/bin/bash
-sort list | uniq -c | grep -E '^\s*1\s+'
+cat words.txt | sort | uniq -u
